@@ -7,6 +7,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BusinessRegistryApi", "Busi
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BusinessRegistryApiTestProject", "BusinessRegistryApiTestProject\BusinessRegistryApiTestProject.xproj", "{650A5A85-5956-491E-9312-5E25A27D1108}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessRegistryWeb", "BusinessRegistryWeb\BusinessRegistryWeb.csproj", "{2A092CAC-D19E-4C1E-98A5-986D3F0035A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{650A5A85-5956-491E-9312-5E25A27D1108}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{650A5A85-5956-491E-9312-5E25A27D1108}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{650A5A85-5956-491E-9312-5E25A27D1108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A092CAC-D19E-4C1E-98A5-986D3F0035A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A092CAC-D19E-4C1E-98A5-986D3F0035A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A092CAC-D19E-4C1E-98A5-986D3F0035A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A092CAC-D19E-4C1E-98A5-986D3F0035A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
