@@ -13,5 +13,5 @@ Prerequisites:
 - Visual Studio 2015
 
 How-to run:
-- Open solution in Visual Studio, hit Start button. 
+- Open solution in Visual Studio, build, hit Start button. 
   This will open Swagger API doc and Search pages.
