@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace BusinessRegistryApi
 {
     [Route("api/[controller]")]
-    public class CompanyController :  Controller
+    public class CompanyController : Controller
     {
         private ICompanyRepository _repo;
         public CompanyController(ICompanyRepository repository)
@@ -62,12 +62,12 @@ namespace BusinessRegistryApi
         [HttpGet("search/{name}")]
         public IActionResult SearchByName(string name)
         {
-            var company = _repo.Search(name);
+            var companiesList = _repo.Search(name);
 
-            if (company == null)
+            if ( companiesList == null || !companiesList.Any() )
                 return this.HttpNotFound();
 
-            return this.Ok(company);
+            return this.Ok(companiesList);
         }
 
         [HttpDelete("{id}")]

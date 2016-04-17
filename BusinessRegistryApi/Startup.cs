@@ -47,6 +47,9 @@ namespace BusinessRegistryApi
                 options.ModelFilter(new Swashbuckle.SwaggerGen.XmlComments.ApplyXmlTypeComments(pathToDoc));
             });
 
+            // Allow cross domain calls
+            services.AddCors( options => options.AddPolicy("AllowAll", p => p.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));
+
 
             services.AddSingleton<ITempDb, InMemoryData>();
             services.AddSingleton<ICompanyRepository, CompanyRepository>();
@@ -63,10 +66,13 @@ namespace BusinessRegistryApi
 
             app.UseStaticFiles();
 
+            app.UseCors("AllowAll");
             app.UseMvc();
 
             app.UseSwaggerGen();
             app.UseSwaggerUi();
+
+            
 
         }
 
