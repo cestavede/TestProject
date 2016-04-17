@@ -9,3 +9,9 @@ Prerequisites:
 - Install ASP .Net MVC 6
 
 - Install .Net Core (DNX), version 1.0.0-rc1-update2 clr/x86/win
+
+- Visual Studio 2015
+
+How-to run:
+- Open solution in Visual Studio, hit Start button. 
+  This will open Swagger API doc and Search pages.
