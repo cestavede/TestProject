@@ -48,6 +48,5 @@ C:\Temp\_PwC\TestProject\BusinessRegistryWeb\bin\System.Web.WebPages.Deployment.
 C:\Temp\_PwC\TestProject\BusinessRegistryWeb\bin\System.Web.WebPages.Razor.xml
 C:\Temp\_PwC\TestProject\BusinessRegistryWeb\bin\Antlr3.Runtime.pdb
 C:\Temp\_PwC\TestProject\BusinessRegistryWeb\bin\Newtonsoft.Json.xml
-C:\Temp\_PwC\TestProject\BusinessRegistryWeb\obj\Debug\BusinessRegistryWeb.csprojResolveAssemblyReference.cache
 C:\Temp\_PwC\TestProject\BusinessRegistryWeb\obj\Debug\BusinessRegistryWeb.dll
 C:\Temp\_PwC\TestProject\BusinessRegistryWeb\obj\Debug\BusinessRegistryWeb.pdb

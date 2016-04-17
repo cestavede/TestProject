@@ -17269,7 +17269,6 @@
       "Swashbuckle.SwaggerUi >= 6.0.0-rc1-final"
     ],
     "DNX,Version=v4.5.1": [
-      "Microsoft.AspNet.Cors >= 5.2.3",
       "WebActivatorEx >= 2.1.0"
     ],
     "DNXCore,Version=v5.0": []

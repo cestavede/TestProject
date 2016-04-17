@@ -12,7 +12,6 @@
   "frameworks": {
     "dnx451": {
       "dependencies": {
-        "Microsoft.AspNet.Cors": "5.2.3",
         "WebActivatorEx": "2.1.0"
       }
     },
