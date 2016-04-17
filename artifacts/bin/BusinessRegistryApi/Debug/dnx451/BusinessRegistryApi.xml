@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BusinessRegistryApi</name>
+    </assembly>
+    <members>
+        <member name="T:BusinessRegistryApi.InMemoryData">
+            <summary>
+            This is naive db implementation (normally I would let Repository use proper db)
+            </summary>
+        </member>
+    </members>
+</doc>
